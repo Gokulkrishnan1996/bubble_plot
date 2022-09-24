@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  background: lavender;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.domain {
+  stroke: #635f5d;
+}
+.tick line {
+  stroke: #c0c0bb;
+}
+.tick text {
+  fill: #635f5d;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.axis-label {
+  font-size: 18px;
+  fill: #635f5d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.data-label {
+  font-size: 10px;
+  fill: white;
+  font-weight: 600;
+}
+
+.app {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.filters {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filter {
+  margin-right: 20px;
+}
+
+.circle-marks {
+  transition: transform 2s;
+}
+
+circle {
+  transition: all 1s;
 }
