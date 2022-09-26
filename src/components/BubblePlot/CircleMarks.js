@@ -25,7 +25,10 @@ export const CircleMarks = ({
             opacity={0.85}
             r={sizeScale(+each[sizeField])}
           >
-            <title>{each[textField]}</title>
+            <title>
+              {each[textField]} <br />
+              {`[${each[xField]}, ${+each[yField]}]`}
+            </title>
           </circle>
           <text className="data-label" textAnchor="middle">
             {each[textField]}
