@@ -36,7 +36,7 @@ function App() {
     <div className="app">
       <div className="filters">
         <div className="filter" id={"x_label"}>
-          <label for="x_label">Select X Label: </label>
+          <label for="x_label">Select X: </label>
           <select
             id="x_label_select"
             name="x_label"
@@ -55,7 +55,7 @@ function App() {
           </select>
         </div>
         <div className="filter" id={"y_label"}>
-          <label for="y_label">Select Y Label: </label>
+          <label for="y_label">Select Y: </label>
           <select
             id="y_label_select"
             name="y_label"
@@ -74,7 +74,7 @@ function App() {
           </select>
         </div>
         <div className="filter" id={"size_field"}>
-          <label for="size_field">Select Size Label: </label>
+          <label for="size_field">Select Size: </label>
           <select
             id="size_field_select"
             name="size_field"
